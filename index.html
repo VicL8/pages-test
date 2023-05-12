@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Crazy Eights</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="game.js"></script>
+  </head>
+  <body>
+    <h1 style="margin: 5px">Crazy Eights</h1>
+    <p style="margin: 5px">Please choose the number of players to start the game. <a href="https://www.ducksters.com/games/crazy_eights_rules.php#:~:text=Eights%20are%20wild%20and%20can,until%20they%20get%20a%20match." target="_blank">Rules.</a> Click the start game button again to restart.</p>
+    <button type="submit" id="submit" class="btn btn-primary" style="float: right; margin: 5px">Start Game</button>
+    <div style="overflow: hidden; padding-right: .5em;">
+    <input type="number" class="form-control" id="numOfPlayers" placeholder="Number of Players (2-5)" style="margin:5px" >
+    </div>
+    <div>
+      <canvas id="game" width="1900" height="750" style=" margin: 5px; border: 1px solid black;"></canvas>
+    </div>
+    <button type="button" id = "nextTurn" class="btn btn-success" style=" margin: 5px;" >Next Turn</button>
+    <button type="button" id = "drawCard" class="btn btn-warning">Draw Card</button>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
